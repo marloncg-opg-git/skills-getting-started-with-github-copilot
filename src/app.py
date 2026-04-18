@@ -11,7 +11,7 @@ from fastapi.responses import RedirectResponse
 import os
 from pathlib import Path
 
-app = FastAPI(title="Mergington High School API",
+app = FastAPI(title="Gonzales High School API",
               description="API for viewing and signing up for extracurricular activities")
 
 # Mount the static files directory

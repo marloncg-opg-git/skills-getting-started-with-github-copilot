@@ -2,7 +2,7 @@
 High School Management System API
 
 A super simple FastAPI application that allows students to view and sign up
-for extracurricular activities at Mergington High School.
+for extracurricular activities at Gonzales High School.
 """
 
 from fastapi import FastAPI, HTTPException
@@ -25,55 +25,55 @@ activities = {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+        "participants": ["michael@gonzales.edu", "daniel@gonzales.edu"]
     },
     "Programming Class": {
         "description": "Learn programming fundamentals and build software projects",
         "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
         "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        "participants": ["emma@gonzales.edu", "sophia@gonzales.edu"]
     },
     "Gym Class": {
         "description": "Physical education and sports activities",
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+        "participants": ["john@gonzales.edu", "olivia@gonzales.edu"]
     },
     "Basketball Team": {
         "description": "Competitive basketball league and training",
         "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
         "max_participants": 15,
-        "participants": ["alex@mergington.edu"]
+        "participants": ["alex@gonzales.edu"]
     },
     "Tennis Club": {
         "description": "Tennis instruction and match play",
         "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
         "max_participants": 16,
-        "participants": ["sarah@mergington.edu", "james@mergington.edu"]
+        "participants": ["sarah@gonzales.edu", "james@gonzales.edu"]
     },
     "Art Studio": {
         "description": "Painting, drawing, and sculpture techniques",
         "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
         "max_participants": 18,
-        "participants": ["lucy@mergington.edu"]
+        "participants": ["lucy@gonzales.edu"]
     },
     "Drama Club": {
         "description": "Theater production and performing arts",
         "schedule": "Mondays and Thursdays, 4:00 PM - 5:30 PM",
         "max_participants": 25,
-        "participants": ["nathan@mergington.edu", "grace@mergington.edu"]
+        "participants": ["nathan@gonzales.edu", "grace@gonzales.edu"]
     },
     "Debate Team": {
         "description": "Competitive debate and public speaking",
         "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
         "max_participants": 14,
-        "participants": ["ryan@mergington.edu"]
+        "participants": ["ryan@gonzales.edu"]
     },
     "Science Club": {
         "description": "Explore scientific experiments and research projects",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 20,
-        "participants": ["zoe@mergington.edu", "kevin@mergington.edu"]
+        "participants": ["zoe@gonzales.edu", "kevin@gonzales.edu"]
     }
 }
 

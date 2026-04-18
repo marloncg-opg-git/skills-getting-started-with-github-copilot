@@ -36,7 +36,7 @@ activities = {
     "Gym Class": {
         "description": "Physical education and sports activities",
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
-        "max_participants": 30,
+        "max_participants": 25,
         "participants": ["john@gonzales.edu", "olivia@gonzales.edu"]
     },
     "Basketball Team": {
